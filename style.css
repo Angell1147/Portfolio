@@ -1,0 +1,113 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #656363;
+    color: #000000;
+}
+
+.container 
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px ;
+}
+
+footer
+{
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 
+
+}
+
+section {
+    background-color: #a2a2a2;
+    margin: 20px 0;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.abt
+{
+    text-align: left;
+}
+
+.list li 
+{
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+    margin: 5px 0;
+    border-radius: 8px;
+    max-width: 600px;
+    position: relative;
+    column-count: 2;
+}
+
+.list li:before 
+{
+    content: '\2022'; /* Unicode character for a bullet point */
+    font-size: 1.5em;
+    color: #000000;
+    position: absolute;
+    left: -20px;
+}
+
+.list li:hover 
+{
+    background-color: #ffffff;
+}
+
+
+.table-container 
+{
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+table 
+{
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td 
+{
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+th 
+{
+    border: 1px solid #fefcfc;
+    padding: 10px;
+    text-align: left;
+}
+
+th 
+{
+    background-color: #000000;
+    color: #fff;
+}
+
+tr:nth-child(even) 
+{
+    background-color: #ffffff;
+}
